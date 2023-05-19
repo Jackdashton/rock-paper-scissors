@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" />
     <title>Rock, Paper and Scissors Game</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -11,18 +10,24 @@
     <h1>Rock, Paper & Scissors Game</h1>
 
     <!-- Display the Scores -->
-    <div>
+    <div class="score">
       <h2>Score</h2>
-      <div>
-        <p>Player: 0</p>
+      <div class="playerScore">
+        <p class="p-count count">Player: 0</p>
       </div>
-      <div>
-        <p>Computer: 0</p>
+      <div class="computerScore">
+        <p class="c-count count">Computer: 0</p>
       </div>
     </div>
 
+    <!-- Moves left  -->
+    <div class="movesLeft">
+      <h3>Moves Left: 10</h3>
+    </div>
+
     <!-- Buttons -->
-    <div>
+    <h2>Choose your Move</h2>
+    <div class="option">
       <div>
         <button>Rock</button>
       </div>
@@ -33,6 +38,10 @@
         <button>Scissors</button>
       </div>
     </div>
+
+    <div class="result"></div>
+
+    <button class="reload">Replay</button>
 
     <script src="main.js"></script>
   </body>

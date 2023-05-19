@@ -5,5 +5,8 @@ function game() {
   let computerScore = 0;
   let moves = 0;
 
-  function playGame()
-};
+  function playGame() {
+    // check html for the id
+    const rockBtn = document.querySelector(".rock");
+  }
+}

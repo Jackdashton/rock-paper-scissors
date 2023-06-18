@@ -11,6 +11,7 @@ let player;
 let computer;
 let result;
 
+
 choiceBtns.forEach((button) => {
   button.addEventListener("click", () => {
     // Set player equal to button we select
@@ -39,7 +40,7 @@ function computerTurn() {
 }
 
 function checkWinner() {
-  if (player == computer) {
+  if (player === computer) {
     return "Draw"
   } else if (computer === "Rock") {
     return (player == "Paper") ? "You win!" : "You lose!"

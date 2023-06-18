@@ -2,46 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Rock, Paper and Scissors Game</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
-
   <body>
-    <h1>Rock, Paper & Scissors Game</h1>
+    <div class="gameDiv">
+      <h2 class="gameText" id="playerText">Player:</h2>
+      <h2 class="gameText" id="computerText">Computer:</h2>
+      <h2 class="gameText" id="resultText">Result:</h2>
 
-    <!-- Display the Scores -->
-    <div class="score">
-      <h2>Score</h2>
-      <div class="playerScore">
-        <p class="p-count count">Player: 0</p>
-      </div>
-      <div class="computerScore">
-        <p class="c-count count">Computer: 0</p>
-      </div>
+      <button class="choiceBtn">Rock</button>
+      <button class="choiceBtn">Paper</button>
+      <button class="choiceBtn">Scissors</button>
     </div>
 
-    <!-- Moves left  -->
-    <div class="movesLeft">
-      <h3>Moves Left: 10</h3>
-    </div>
 
-    <!-- Buttons -->
-    <h2>Choose your Move</h2>
-    <div class="option">
-      <div>
-        <button class="rock">Rock</button>
-      </div>
-      <div>
-        <button class="paper">Paper</button>
-      </div>
-      <div>
-        <button class="scissors">Scissors</button>
-      </div>
-    </div>
 
-    <div class="result"></div>
 
-    <button class="reload">Replay</button>
 
     <script src="main.js"></script>
   </body>
